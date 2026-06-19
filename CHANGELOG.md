@@ -5,6 +5,65 @@
 
 * **lockfile:** updated lockfile ([c8e1b4a](https://github.com/Squads-Protocol/public-v4-client/commit/c8e1b4a3d209b7c1c3cfc4d9e7edb8e187e22833))
 
+## [1.5.0](https://github.com/drift-labs/public-v4-client-squads/compare/v1.4.0...v1.5.0) (2026-06-19)
+
+
+### Features
+
+* **confimation:** insure that signature is processed ([83c5f9f](https://github.com/drift-labs/public-v4-client-squads/commit/83c5f9f2c7ba71fe64904043d2dff5038795f227))
+* **detail:** show detailed breakdown + style ([#36](https://github.com/drift-labs/public-v4-client-squads/issues/36)) ([48f81a5](https://github.com/drift-labs/public-v4-client-squads/commit/48f81a512304c8f41ca8382768c11585b238b0df))
+* **first:** initial setup ([22d6179](https://github.com/drift-labs/public-v4-client-squads/commit/22d61794e69076609667a368b7941a2da9ffa6a0))
+* **manifest:** added build manifest.json ([f2bf41f](https://github.com/drift-labs/public-v4-client-squads/commit/f2bf41fd13d7db0c161df5c9ec582e2dd3421c0b))
+* **ms-config-lookup:** set to 300 for sig limit ([7295b1f](https://github.com/drift-labs/public-v4-client-squads/commit/7295b1fcc3cb77c3046f96d92ad72ddbe83cf974))
+* **ms-config-lookup:** set to 300 for sig limit ([f0d2580](https://github.com/drift-labs/public-v4-client-squads/commit/f0d2580a24f33d849a0087b3bdafb331ce6da158))
+* **multiple:** various new updates ([#39](https://github.com/drift-labs/public-v4-client-squads/issues/39)) ([7fdf877](https://github.com/drift-labs/public-v4-client-squads/commit/7fdf87742edc455b67fcdb1262af043280f7d644))
+* **scan-for-ms:** scan through vault sigs to find ms ([b2b64ee](https://github.com/drift-labs/public-v4-client-squads/commit/b2b64eec3ae50a6b49d4b79be06380feccd76920))
+* **scan-for-ms:** scan through vault sigs to find ms ([7375783](https://github.com/drift-labs/public-v4-client-squads/commit/7375783a0e0fc46f95a59c4366b7b14e59e37f2f))
+* **tx-import:** added vault selector ([881420e](https://github.com/drift-labs/public-v4-client-squads/commit/881420e2e2f1e2a0c411ddfdbe7aa369bcde6b71))
+* **web:** Add Program Manager Page ([9df4dab](https://github.com/drift-labs/public-v4-client-squads/commit/9df4dabb5128a8cf46e480f8e77e3bd26c7f69b7))
+
+
+### Bug Fixes
+
+* **access:** useAccess hook added for member check ([a738957](https://github.com/drift-labs/public-v4-client-squads/commit/a738957f6cca520f4cf20a3847bcc3a0beb1c4df))
+* **add-member:** added check to see if already exists ([54266eb](https://github.com/drift-labs/public-v4-client-squads/commit/54266ebb3f31fad0f8df562019e9919671abf017))
+* **babel:** dependabot alert ([e5c7392](https://github.com/drift-labs/public-v4-client-squads/commit/e5c7392313bd2baacc1990284238fa2cfa8846ec))
+* **cleanup:** unused directives and semver ([ee1258f](https://github.com/drift-labs/public-v4-client-squads/commit/ee1258ffa741a0946475c5f2cc725869e94cead4))
+* **confirm:** added wait for confirmation logic in utils ([38380ff](https://github.com/drift-labs/public-v4-client-squads/commit/38380ff8472faa72bc6853141db3f2148343561d))
+* **confirmation:** better confirmation logic ([6a46192](https://github.com/drift-labs/public-v4-client-squads/commit/6a4619246bb3d6c78e8a3798416387748d438659))
+* **confirmations:** better handling in tx import ([884229b](https://github.com/drift-labs/public-v4-client-squads/commit/884229bf4018bd1a51e935676bc7e27eedeb9d6d))
+* **confirmations:** fixed false positives ([0aa98bc](https://github.com/drift-labs/public-v4-client-squads/commit/0aa98bc49e4d4d144dc955c7d0c501d21caafb8a))
+* **confirmations:** reject on missing confirmations ([c41bda5](https://github.com/drift-labs/public-v4-client-squads/commit/c41bda54a266561a05821b1826ad0ed02a157336))
+* **error-boundary:** add at page level to capture and preserve nav ([7a35c63](https://github.com/drift-labs/public-v4-client-squads/commit/7a35c63e4e9a63a29420f90455218a95d1f086f0))
+* **error-boundary:** include message regarding rpc ([25084e7](https://github.com/drift-labs/public-v4-client-squads/commit/25084e7aa4e63573fde0bc2df3b3ef403b862501))
+* **explorer:** custom explorer link support ([956fd85](https://github.com/drift-labs/public-v4-client-squads/commit/956fd85033679cebaeac95abdac9b7cc01fe6c0d))
+* **favicon:** added squads favicon.ico ([cec7b27](https://github.com/drift-labs/public-v4-client-squads/commit/cec7b273545d9fb61f24331b271610be53794632))
+* **hash-router:** added hashrouter for routes ([bfa3f4a](https://github.com/drift-labs/public-v4-client-squads/commit/bfa3f4a3499c320716a4e37e14c2fcd0c65d3b81))
+* **import-tx:** check wallet status ([2a440cd](https://github.com/drift-labs/public-v4-client-squads/commit/2a440cd84c32cc4129394f75e9865124057ea6da))
+* **inputs:** added trim to the input fields ([2ef9986](https://github.com/drift-labs/public-v4-client-squads/commit/2ef998612615fde26bc739be8b46a9926cabe1d1))
+* **lockfile:** updated lockfile ([c8e1b4a](https://github.com/drift-labs/public-v4-client-squads/commit/c8e1b4a3d209b7c1c3cfc4d9e7edb8e187e22833))
+* **main:** Permit T22 tokens && Fix rent payer issue in wrapped message ([#26](https://github.com/drift-labs/public-v4-client-squads/issues/26)) ([0b7ffb3](https://github.com/drift-labs/public-v4-client-squads/commit/0b7ffb3ea313b8641a3bf415db2cfad7759af753))
+* **members:** state updates for members and txs ([#34](https://github.com/drift-labs/public-v4-client-squads/issues/34)) ([3812420](https://github.com/drift-labs/public-v4-client-squads/commit/3812420ecaa97172d50e2532e0c52f5c73799a59))
+* **modal:** dismiss modal after success ([5c90919](https://github.com/drift-labs/public-v4-client-squads/commit/5c909195463419e01b581d3cd62016d28def31db))
+* **modals:** better modal handling ([8a344a7](https://github.com/drift-labs/public-v4-client-squads/commit/8a344a704e6dac0f44826bc42b7d82aedbcc6c0e))
+* **ms-search:** error handling and toast ([0132422](https://github.com/drift-labs/public-v4-client-squads/commit/01324227c0d2438488e5467fc2a85a7e65c2c576))
+* **ms-search:** error handling and toast ([300655d](https://github.com/drift-labs/public-v4-client-squads/commit/300655dda6a90e38f2120888102d2c0889fbabfb))
+* **nav-error:** updated rpc error flow and nav ([c31a697](https://github.com/drift-labs/public-v4-client-squads/commit/c31a6970a60a8db6410246dde7c61c85542b8378))
+* **pagination:** fixed tx pagination on search/hash ([1d3ceef](https://github.com/drift-labs/public-v4-client-squads/commit/1d3ceef995fd3bd24bacd20c4e5c29677ad955c8))
+* **permissions:** human readable from bitmask ([b5deca6](https://github.com/drift-labs/public-v4-client-squads/commit/b5deca69dec3313f988207fc07d1e3d3f09525af))
+* **remove-member:** added access hook on remove member ([3b996a5](https://github.com/drift-labs/public-v4-client-squads/commit/3b996a5396565168b51bc45dd837165a5ffaece2))
+* **switch-squad:** added text to switch squads ([95b9c18](https://github.com/drift-labs/public-v4-client-squads/commit/95b9c18cbc9b37f6947178cc320b66805ec71359))
+* **table:** removed &lt;div&gt; to resolve react warning ([60d4923](https://github.com/drift-labs/public-v4-client-squads/commit/60d4923ce4d6ee372873f3c6e6f9257640bca37a))
+* **threshold-input:** adjusted form display ([9bd7bf1](https://github.com/drift-labs/public-v4-client-squads/commit/9bd7bf1bed3ee95759973a4868544b2d64d65d1d))
+* **threshold:** threshold form cleanup ([3041073](https://github.com/drift-labs/public-v4-client-squads/commit/3041073f2087b75b52beb6dab365e9b8083db1c6))
+* **threshold:** updated threshold form and component props ([4ba207a](https://github.com/drift-labs/public-v4-client-squads/commit/4ba207a325964effad05efa1facaa22dc34658e9))
+* **transactions:** if page less than 1, set to 1 ([335551f](https://github.com/drift-labs/public-v4-client-squads/commit/335551f868e7b5770e0a24763442feed033ea2d9))
+* **transactions:** set page list to 10 ([f3ccd6d](https://github.com/drift-labs/public-v4-client-squads/commit/f3ccd6d9313468c6334312ad289537338aa210c6))
+* **transactions:** show (stale) for deprecated txs ([a4ba9eb](https://github.com/drift-labs/public-v4-client-squads/commit/a4ba9ebfb902a3fc00b0ac7802351065f559cd67))
+* **transactions:** stale label in status ([52b5de3](https://github.com/drift-labs/public-v4-client-squads/commit/52b5de39c06b507e20115df23501703fc8334777))
+* **vault-select:** added all 256 vaults ([09e8ebf](https://github.com/drift-labs/public-v4-client-squads/commit/09e8ebfdae739549edf9a85a323ab47669f90cd8))
+* **wallet-connect:** error handling for wallet not connected ([8e931b3](https://github.com/drift-labs/public-v4-client-squads/commit/8e931b33d8e39628d8e633037aadb0140286279e))
+
 ## [1.4.0](https://github.com/Squads-Protocol/public-v4-client/compare/v1.3.0...v1.4.0) (2026-04-21)
 
 
